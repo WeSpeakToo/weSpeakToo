@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,500");
+
+body {
+	background-color:#f2f2f2;
+	font:16px/1.5 Dosis:300, Helvetica, Arial, sans-serif;
+	color: #1E2022;
+	margin:50px auto;
+	width:80%;
+}
+
+h1 {
+	text-align:center;
+	font:38px/5,Dosis:500;
+	color:#00B8A9;
+}
+
+
