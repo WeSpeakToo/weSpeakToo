@@ -18,4 +18,5 @@ title: We Speak Too
 <br><br>
 </p>
 
-{% include speakers.markdown %}
+{% capture speaker %}{% include speakers.markdown %}{% endcapture %}
+{{ speaker | markdownify }}
