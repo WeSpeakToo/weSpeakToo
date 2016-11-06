@@ -18,5 +18,18 @@ title: We Speak Too
 <br><br>
 </p>
 
-{% capture speaker %}{% include speakers.markdown %}{% endcapture %}
-{{ speaker | markdownify }}
+<table id="speakerList" class="display" cellspacing="0" width="100%">
+                
+     <thead>
+        <th>Name</th>
+        <th>Twitter</th>
+        <th>Specialities</th>
+        <th>Languages/Software</th>
+    </thead>
+                
+</table>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.8/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="speakerList.js"></script>
+
+<br><br>
