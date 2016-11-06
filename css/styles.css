@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,500");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Patua+One');
 
 body {
-	background-color:#f2f2f2;
-	font:16px/1.5 Dosis:300, Helvetica, Arial, sans-serif;
+	background-color:#ECF0F1;
+	font:16px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #1E2022;
 	margin:50px auto;
 	width:80%;
@@ -10,8 +10,10 @@ body {
 
 h1 {
 	text-align:center;
-	font:38px/5,Dosis:500;
-	color:#00B8A9;
+	font-family:'Patua One', cursive;
+	font:40px;
+	color:#590D82;
+	/*#00B8A9;*/
 }
 
 .footer {

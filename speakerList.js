@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 function convertToLink(link) {
     
-    var html = '<a href=https://twitter.com/"' + link + '">' + link + "</a>";
+    var html = '<a href=https://twitter.com/' + link + '>' + link + "</a>";
     
     return html;
     
