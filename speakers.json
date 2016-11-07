@@ -11,6 +11,7 @@
         ["Sana Javed", "@sanacodes", "Software development, TDD, Databases, APIs, Data Analysis", "Python, Django, Testing/TDD"],
         ["Shannon Turner",  "@svthmc", "Web development", "Python, Django, HTML/CSS, JavaScript, bash"],
         ["Valerie Coffman", "@valerierose", "Data Science, Computational Science, Startups, Leadership", "Python, C++, Javascript"],
-        ["Amanda Hewitt", "@apiamanda", "JavaScript and Front End Development", "JavaScript, Node.js, HTML/CSS"]
+        ["Amanda Hewitt", "@apiamanda", "JavaScript and Front End Development", "JavaScript, Node.js, HTML/CSS"],
+        ["Mandi Traud", "@altraud", "Data Science, Cybersecurity, Graph Theory, Gender Issues in Tech", "Scala, R, JavaScript, Python"]
     ]
 }
