@@ -3,8 +3,8 @@ $(document).ready(function() {
     $('#speakerList').DataTable( {
         "ajax": 'speakers.json',
         "order": [[0, "asc"]],
-        "lengthMenu": [ [25, 50, -1], [25, 50, "All"] ],
         "pageLength": 25,
+        "lengthMenu": [ [25, 50, -1], [25, 50, "All"] ],
         "columnDefs": [
                 {
                     "render": function (data, type, row) {
