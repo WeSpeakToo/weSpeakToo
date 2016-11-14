@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('#speakerList').DataTable( {
         "ajax": 'speakers.json',
         "order": [[0, "asc"]],
-        "LengthMenu": [25, 50, 100],
+        "lengthMenu": [ [25, 50, -1], [25, 50, "All"] ],
         "pageLength": 25,
         "columnDefs": [
                 {
