@@ -4,7 +4,7 @@ $(document).ready(function() {
         "ajax": 'speakers.json',
         "order": [[0, "asc"]],
         "LengthMenu": [25, 50, 100],
-        "pageLength": 25
+        "pageLength": 25,
         "columnDefs": [
                 {
                     "render": function (data, type, row) {
