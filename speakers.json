@@ -49,7 +49,11 @@
 		["Emily Dresner","@multiplexer","Senior VP of Engineering at Upside Travel, Cloud Architecture, Distributed Systems, DevOps, Agile with SCRUM, Team Building, AppSec","Go, Python, C, MySQL"],
 		["Liz Rose Chmela","@heylizrose","Founder of Made by We, Human Centered Design, Social Enterprise, Graphic Design, Illustration, Web Design, UX Design, Visual Communication",""],
 		["Zuri Hunter", "@ZuriHunter", "Ruby on Rails, Angular JS, APIs, Full Stack Development, Sketch ", "Ruby, HTML/CSS, Javascript, Java"],
-		["Mary-Katherine McKenzie","@MaryKMcKenzie","Ruby Basics, Rails Web Development, APIs, Git/Github","Ruby, Rails, HTML/CSS, Sass, Javascript, Coffeescript"]
-		["Shay Strong","@shaybstrong","Geospatial bigdata, GIS, neural networks/BVLC caffe, artificial intelligence, IBM Watson, remote-sensing, imagery analytics, predicitive modeling","Python, AWS, Matlab, C/C++"]
+		["Mary-Katherine McKenzie","@MaryKMcKenzie","Ruby Basics, Rails Web Development, APIs, Git/Github","Ruby, Rails, HTML/CSS, Sass, Javascript, Coffeescript"],
+		["Shay Strong","@shaybstrong","Geospatial bigdata, GIS, neural networks/BVLC caffe, artificial intelligence, IBM Watson, remote-sensing, imagery analytics, predicitive modeling","Python, AWS, Matlab, C/C++"],
+		["Lauren Moore","@laurenMDesign","Graphic Design, UX Design, Responsive Websites, Design Collaboration, Visual Communication, Non-Profit and Gov't Design",""],
+		["Shonna Smith<br>shonna@coderighter.com","","Agile Team Leadership/Coaching, Web Development","Java/JEE/Spring ecosystem, TDD, UX, WordPress, HTML/CSS/JS, iOS Dev"],
+		["Emilia Regan","@emdashux","UX Design, Visual Design, User Testing, Design thinking",""]
+
 	]
 	}
