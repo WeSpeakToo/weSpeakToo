@@ -15,7 +15,7 @@ h1 {
 	color:#590D82;
 }
 
-h2 h3 {
+h2, h3 {
 	text-align:left;
 	font-family:'Patua One', cursive;
 	/*font-size:28px;*/
