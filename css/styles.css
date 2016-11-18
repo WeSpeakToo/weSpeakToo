@@ -1,25 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Patua+One');
 
-body {
-	background-color:#ECF0F1;
-	font:16px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
-	color: #1E2022;
-	margin:50px auto;
-	width:80%;
-}
-
 h1 {
 	text-align:center;
 	font-family:'Patua One', cursive;
-	/*font-size:40px;*/
 	color:#590D82;
 }
 
 h2, h3 {
 	text-align:left;
 	font-family:'Patua One', cursive;
-	/*font-size:28px;*/
 	color:#590D82;
+}
+
+body {
+	background-color:#ECF0F1;
+	font:16px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #1E2022;
+	margin:50px auto;
+	width:80%;
 }
 
 .footer {
