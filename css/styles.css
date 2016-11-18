@@ -16,6 +16,14 @@ h1 {
 	/*#00B8A9;*/
 }
 
+h2 {
+	text-align:center;
+	font-family:'Patua One', cursive;
+	font:28px;
+	color:#590D82;
+	/*#00B8A9;*/
+}
+
 .footer {
 	font-size: 14px;
 	text-align:center;
