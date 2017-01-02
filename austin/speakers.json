@@ -1,7 +1,10 @@
 {
 	"data": [
-		["Amalie Barras", "@amaliebarras", "Civic Tech, Diversity and Inclusion in Tech, Meetup Organizing, Web Analytics, UI Design & Coding","Google Analytics, Tableau, Sketch, HTML/CSS/Sass, Git, Jekyll"],
+		["Sara Inez Calderon","@sarachicad","Front End Dev","React/Redux, Angular, CSS/Less, C#, SQL"],
 		["Charli Elwonger","@animalphase","Interaction Design, Web Design, User Interface Design, Interactive Art & Games",""],
-    ["Julia Byron","@juliazeebee","User Experience Design, Design Research","Design Thinking, Adobe Creative Suite"]
+		["Amalie Barras", "@amaliebarras", "Civic Tech, Diversity and Inclusion in Tech, Meetup Organizing, We
+		 ["Amalie Barras", "@amaliebarras", "Civic Tech, Diversity and Inclusion in Tech, Meetup Organizing, Web Analytics, UI Design & Coding","Google Analytics, Tableau, Sketch, HTML/CSS/Sass, Git, Jekyll"		["Cecy Correra","@cecycorrera","Diversity, Teaching Code, Breaking into Tech","Ruby, Jekyll, APIs"],
+],
+    		["Julia Byron","@juliazeebee","User Experience Design, Design Research","Design Thinking, Adobe Creative Suite"]
 	]
-	}
+}
