@@ -1,28 +1,87 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Patua+One|Russo+One');
 
-h1 {
-	text-align:center;
-	font-family:'Patua One', cursive;
-	color:#590D82;
+header {
+	height:250px;
+	position: relative;
+	font-family:'Russo One', cursive;
+	background-image:url('wocinTech.jpg');
+	background-size:100% 600px;
+    background-repeat: no-repeat;
 }
 
-h2, h3 {
-	text-align:left;
-	font-family:'Patua One', cursive;
-	color:#590D82;
+header h1 {
+	position:absolute;
+	top: 10%;
+	left: 30%;
+	font-size: 48px;
+	color: #000000;
+}
+
+header h2 {
+	position:absolute;
+	top: 36%;
+	left: 40%;
+	font-size: 24px;
+	color: #000000;
+}
+
+header h1 a {
+	text-decoration:none;
+	color: #000000;
+}
+
+a:hover {
+	color:#ff33cc;
+	text-decoration:none; 
+    cursor:pointer; 
 }
 
 body {
-	background-color:#ECF0F1;
-	font:16px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
-	color: #1E2022;
-	margin:50px auto;
-	width:80%;
+	background-color:#FFFFFF;
+	color:#595959;
+	margin: 1% 18% 0 18%;
+}
+
+body a {
+	text-decoration:none;
+	color:#595959;
+}
+
+.content{
+	margin: 2% 7% 0 7%;
+	font:14px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.cityList{
+	text-align:center;
+	margin:10px 0 10px -40px;
+}
+
+.cityList li{
+	display:inline;
+	line-height:5%;
+	margin:0px 8px 10px 8px;
+	font:18px;
+}
+
+.cityList a:hover {
+	color:#ff33cc;
+	text-decoration:none; 
+    cursor:pointer; 
+	}
+
+.toDoList{
+	text-align:left;
+	margin-left:5%;
+}
+
+.toDoList li a:hover{
+	color:#ff33cc;
+	text-decoration:none; 
+    cursor:pointer;
 }
 
 .footer {
-	font-size: 14px;
+	font-size: 12px;
 	text-align:center;
 }
-
-
