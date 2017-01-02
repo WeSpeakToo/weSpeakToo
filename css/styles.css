@@ -4,7 +4,7 @@ header {
 	height:250px;
 	position: relative;
 	font-family:'Russo One', cursive;
-	background-image:url('./images/wocinTech.jpg');
+	background-image:url('../images/wocinTech.jpg');
 	background-size:100% 600px;
     background-repeat: no-repeat;
 }
