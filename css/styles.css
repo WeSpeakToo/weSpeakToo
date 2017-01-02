@@ -46,7 +46,7 @@ body a {
 	color:#595959;
 }
 
-.content{
+.content {
 	margin: 2% 7% 0 7%;
 	font:14px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -66,6 +66,10 @@ body a {
 	margin:0px 8px 10px 8px;
 	font:18px;
 }
+
+.cityList a {
+	text-decoration:none; 
+	}
 
 .cityList a:hover {
 	color:#ff33cc;
