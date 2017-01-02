@@ -31,7 +31,7 @@ function convertToLink(link) {
 $(document).ready(function() {
     
     $('#DCspeakerList').DataTable( {
-        "ajax": './dc/speakers.json',
+        "ajax": './DC/speakers.json',
         "order": [[0, "asc"]],
         "lengthMenu": [10, 25, 50, 75, 100],
         "columnDefs": [
