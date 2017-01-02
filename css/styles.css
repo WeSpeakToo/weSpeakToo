@@ -51,6 +51,10 @@ body a {
 	font:14px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
+.content a{
+	text-decoration: underline;
+}
+
 .cityList{
 	text-align:center;
 	margin:10px 0 10px -40px;
