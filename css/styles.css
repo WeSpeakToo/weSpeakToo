@@ -1,25 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Patua+One|Russo+One');
 
-header {
-	height: 250px;
-	position: relative;
-	font-family: 'Russo One', cursive;
-	background-image: url('../images/wocintech.jpg');
-	background-size: 100% 600px;
-    background-repeat: no-repeat;
+.headerdiv {
+		height: 275px;
+		background-image: 
+			linear-gradient(
+		      rgba(255, 230, 255, 0.45), 
+		      rgba(255, 230, 255, 0.45)
+		    ),
+		url('../images/wocintech.jpg');
+		background-size: cover;
+	    background-repeat: no-repeat;
+	    background-color: rgba(255,0,0,0.5);
 }
 
+header {
+		position: relative;
+		font-family: 'Russo One', cursive;
+	    text-align: center;
+	}
+
 header h1 {
-	padding-top: 5%;
+	padding-top: 3%;
 	margin-bottom: 0;
-	text-align: right;
-	font-size: 48px;
+	font-size: 58px;
 	color: #000000;
 }
 
 header h2 {
 	margin-top: 0;
-	text-align: right;
+	text-align: center;
 	font-size: 24px;
 	color: #000000;
 }
@@ -38,7 +47,8 @@ a:hover {
 body {
 	background-color: #FFFFFF;
 	color: #595959;
-	margin: 1% 15% 0 15%;
+	margin: 1% 0% 0 0%;
+	font-family: 'Open Sans';
 }
 
 body a {
@@ -46,38 +56,47 @@ body a {
 }
 
 .content {
-	margin: 2% 7% 0 7%;
 	font: 14px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .content a {
 	text-decoration: underline;
+	color: #ff33cc;
 }
 
-.cityList{
-	text-align:center;
+.listwrapper {
+	background-color: #f2f2f2;
+	height: auto;
+	overflow: hidden;
+}
+
+.cityList {
+	text-align:left;	
 }
 
 .cityList li{
 	display: inline;
 	line-height: 5%;
-	margin: 0 5% 0 5%;
-	font: 18px;
+	margin: 0% 5% 0% 5%;
+	font-size: 24px;
 }
 
 .cityList a {
+	color: #000;
+	font-family: 'Russo One', cursive;
 	text-decoration: none; 
+	padding: 7px;
 	}
 
 .cityList a:hover {
-	color: #ff33cc;
+	background-color: #ff33cc;
+	color: #fff;
 	text-decoration: none; 
     cursor: pointer; 
 	}
 
-.toDoList{
+.toDoList {
 	text-align: left;
-	margin-left: 5%;
 }
 
 .toDoList li a:hover{
@@ -87,10 +106,19 @@ body a {
 }
 
 .footer {
+	background-color: #f2f2f2;
+	padding: 10px 0;
 	font-size: 12px;
 	text-align: center;
 }
 
+
 #AustinSpeakerList #DCspeakerList {
 	font: 14px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/*page styles*/
+
+.container {
+	padding: 0% 15% 0% 15%;
 }
