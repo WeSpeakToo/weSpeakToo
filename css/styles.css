@@ -1,54 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Patua+One|Russo+One');
 
 header {
-	height:250px;
+	height: 250px;
 	position: relative;
-	font-family:'Russo One', cursive;
-	background-image:url('../images/wocintech.jpg');
-	background-size:100% 600px;
+	font-family: 'Russo One', cursive;
+	background-image: url('../images/wocintech.jpg');
+	background-size: 100% 600px;
     background-repeat: no-repeat;
 }
 
 header h1 {
-	position:absolute;
-	top: 10%;
-	left: 30%;
+	padding-top: 5%;
+	margin-bottom: 0;
+	text-align: right;
 	font-size: 48px;
 	color: #000000;
 }
 
 header h2 {
-	position:absolute;
-	top: 36%;
-	left: 40%;
+	margin-top: 0;
+	text-align: right;
 	font-size: 24px;
 	color: #000000;
 }
 
 header h1 a {
-	text-decoration:none;
+	text-decoration: none;
 	color: #000000;
 }
 
 a:hover {
-	color:#ff33cc;
-	text-decoration:none; 
-    cursor:pointer; 
+	color: #ff33cc;
+	text-decoration: none; 
+    cursor: pointer; 
 }
 
 body {
-	background-color:#FFFFFF;
-	color:#595959;
-	margin: 1% 18% 0 18%;
+	background-color: #FFFFFF;
+	color: #595959;
+	margin: 1% 15% 0 15%;
 }
 
 body a {
-	color:#595959;
+	color: #595959;
 }
 
 .content {
 	margin: 2% 7% 0 7%;
-	font:14px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
+	font: 14px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .content a {
@@ -57,38 +56,37 @@ body a {
 
 .cityList{
 	text-align:center;
-	margin:10px 0 10px -40px;
 }
 
 .cityList li{
-	display:inline;
-	line-height:5%;
-	margin:0px 8px 10px 8px;
-	font:18px;
+	display: inline;
+	line-height: 5%;
+	margin: 0 5% 0 5%;
+	font: 18px;
 }
 
 .cityList a {
-	text-decoration:none; 
+	text-decoration: none; 
 	}
 
 .cityList a:hover {
-	color:#ff33cc;
-	text-decoration:none; 
-    cursor:pointer; 
+	color: #ff33cc;
+	text-decoration: none; 
+    cursor: pointer; 
 	}
 
 .toDoList{
-	text-align:left;
-	margin-left:5%;
+	text-align: left;
+	margin-left: 5%;
 }
 
 .toDoList li a:hover{
-	color:#ff33cc;
-	text-decoration:none; 
-    cursor:pointer;
+	color: #ff33cc;
+	text-decoration: none; 
+    cursor: pointer;
 }
 
 .footer {
 	font-size: 12px;
-	text-align:center;
+	text-align: center;
 }
