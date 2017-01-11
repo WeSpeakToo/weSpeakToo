@@ -14,7 +14,7 @@ $(document).ready(function() {
                 },
                 {
                 "render": function ( data, type, row ) {
-                    return "<a href='" + row[0]+"'>"+row[4]+"</a>";
+                    return "<a href='" + row[4]+"'>"+row[0]+"</a>";
                 },
                 "targets": 0
                 },
