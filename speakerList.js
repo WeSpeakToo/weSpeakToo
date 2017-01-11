@@ -7,7 +7,7 @@ $(document).ready(function() {
         "columnDefs": [
                 {
                     "render": function (data, type, row) {
-                        return '<a target="_blank" href=https://twitter.com/' + link + '>' + link + "</a>";
+                        return '<a target="_blank" href=https://twitter.com/' + row[1] + '>' + row[1] + "</a>";
                         
                     },
                     "targets": 1
