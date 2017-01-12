@@ -41,7 +41,15 @@ $(document).ready(function() {
                         
                     },
                     "targets": 1
-                }
+                },
+                {
+                "render": function ( data, type, row ) {
+                    return "<a target='_blank' href='" + row[4]+"'>"+row[0]+"</a>";
+                },
+                    "targets": 0
+                },
+                { 
+                    "visible": false,  "targets": 4 }
             ]
     } );
     
