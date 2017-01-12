@@ -7,18 +7,19 @@ $(document).ready(function() {
         "columnDefs": [
                 {
                     "render": function (data, type, row) {
-                        return '<a target="_blank" href=https://twitter.com/' + row[1] + '>' + row[1] + "</a>";
+                        return "<a target='_blank' href=https://twitter.com/" + row[1] + ">" + row[1] + "</a>";
                         
                     },
                     "targets": 1
                 },
                 {
                 "render": function ( data, type, row ) {
-                    return "<a href='" + row[4]+"'>"+row[0]+"</a>";
+                    return "<a target='_blank' href='" + row[4]+"'>"+row[0]+"</a>";
                 },
-                "targets": 0
+                    "targets": 0
                 },
-                { "visible": false,  "targets": 4 }
+                { 
+                    "visible": false,  "targets": 4 }
             ]
     } );
     
