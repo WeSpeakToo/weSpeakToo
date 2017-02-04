@@ -1,0 +1,76 @@
+$tot-width: 100%;
+$num-col: 12;
+$gut-width: 2%;
+
+$ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
+
+@mixin grid($geezy){
+  width: ($geezy * $ind-col-width) + ($gut-width * ($geezy - 1));
+  float: left;
+  margin-right: $gut-width;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.col {
+  width: 100%;
+  height: 2em;
+  margin-bottom: 5px;
+}
+
+.row {
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+/* larger grid */
+
+@media (min-width: 450px) {
+
+  .col-1 {
+    @include grid (1);
+  }
+
+  .col-2 {
+    @include grid(2);
+  }
+
+  .col-3 {
+    @include grid(3);
+  }
+
+  .col-4 {
+    @include grid(4);
+  }
+
+  .col-5 {
+    @include grid(5);
+  }
+  .col-6 {
+    @include grid(6);
+  }
+  .col-7 {
+    @include grid(7);
+  }
+  .col-8 {
+    @include grid(8);
+  }
+  .col-9 {
+    @include grid(9);
+  }
+  .col-10 {
+    @include grid(10);
+  }
+  .col-11 {
+    @include grid(11);
+  }
+  .col-12 {
+    @include grid(12);
+  }
+
+}

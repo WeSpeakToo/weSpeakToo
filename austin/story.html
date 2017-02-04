@@ -3,111 +3,78 @@ layout: default
 title: We Speak Too | Austin | Story
 ---
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-  <title>Gender Diversity in Austin Meetups</title>
+<div class = "austinstory">
+  <div class = "row">
+    <h1><a href="/index.html">We Speak Too</a></h1>
+    <h2>Austin</h2>
+  </div>
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <div class="row">
+      <h3>In 2016, Not Enough Women Spoke at Austin Tech and Data Meetups</h3>
+      <h5> Amalie Barras // January 3, 2017 </h5>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Russo+One" rel="stylesheet">
+      <hr id='top-line'>
+      <p class="content"><div class = "intro">This project is a fork of Kate Rabinowitz's <a href="http://www.datalensdc.com/meetupSpeakers.html" class="link">original analysis</a> of tech meetups in DC. I came across this project after meeting her during a visit to Austin, and decided I wanted to repeat this analysis for Austin to hopefully encourage other cities to do it to. I encourage you to read more about her <a href = "http://www.datalensdc.com/meetupSpeakers.html" class="link">project.</a></div>
+      <hr id='top-line'>
 
-    <link href='../css/styles.css' rel='stylesheet' type='text/css'>
+      <h4>Background </h4>
+      I always thought of Austin as a 'not bad' place for women in technology, based on all the active women-specific groups in the area, the way people acknowledge the importance of diversity at meetups and at work, and the number of simply amazing women I have met in person through meetups. But in researching this project I found  <a href="https://smartasset.com/mortgage/best-cities-for-women-in-tech-2016" class="link" target="_blank">this report</a> which has Austin well-below the national average on a number of diversity stats, including only 21% of tech jobs filled by women. This is well below the national average of 27%. <br><br>And while our meetup scene is hot and thriving -- among the <a hred = "https://blog.rjmetrics.com/2014/04/23/whos-meeting-up-a-ranking-of-top-startup-cities/">top 10 by members</a> in the US -- I've also discovered that the proportion of meetup speakers who are women, 16.3%, is even lower than that below-average proportion of tech jobs filled by women in Austin.
+      <br><br>
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="http://d3js.org/d3.v3.min.js"></script>
+      <h4>Methodology </h4>
+      For the analysis, I looked at the top 50 meetup groups in Austin and eliminated the ones without speaker events. These all had greater than 1500 members. I also omitted women-specific events which I will explain later. Amazingly, this still left me with 44 groups. I sorted the meetup group list by number of members and picked every third group as a sample. Then, I pulled the events for that group, returning 255 events. <br><br>
+      I manually went through and notated whether or not these events were speaker events (which shrunk the list to 220), and tallied the male, female, and non-binary speakers for each. I based this on triangulating with names, pronouns, and lots and lots of googling. I realize there are ways to automate this, but I wanted to have the highest quality vetted data to put out there.
+      <br>
 
-  <style>
-  @media (min-width: 0px) and (max-width: 450px){
-     .singleBig iframe, .multiBig iframe{
-          display:none;
-      }
-    }
-  @media (min-width: 450px) {
-      .singleSmall iframe, .multiSmall iframe{
-          display:none;
-      }
-    }
-  </style>
-</head> -->
+      <h4>Findings</h4>
+      The results were somewhat indicative of a more diverse meetup speaker culture in Austin than in DC, but still showed a disappointing disparity. Only eleven women spoke at single-speaker events in Austin. Out of 74.<br><br>
+      Startup Founder had more women than men at single-speaker events, but no women spoke at their multi-speaker events.</p>
 
-<!-- <body class = "writeup"> -->
+      <div class="singleBig">
+      <iframe width="100%" height="530px" src="./iframes/meetupSingleBig.html" frameborder="0"></iframe>
+      </div>
 
-<h1><a href="../index.html">We Speak Too</a></h1>
-<h2>Austin</h2>
+      <div class="singleSmall">
+      <iframe width="100%" height="550px" src="./iframes/meetupSingleSmall.html" frameborder="0"></iframe>
+      </div>
 
-<div class = "contentblock">
-<div class='content row'>
-  <div class='col-xs-12'>
-  <br>
+      <p class="content">Multi-speaker events overall did feature more women, and technically at higher rates (17.1%, or 25 out of 146 speakers were women) but 10 of this 25 came from the wordpress group where the same woman leads a regular workshop. I didn't go through and deduplicate all speakers, but in theory that would reduce this number to less than 10%.
+      <br><br>
+      </p>
 
-    <h3>In 2016, Not Enough Women Spoke at Austin Tech and Data Meetups</h3>
-    <h5> Amalie Barras // January 3, 2017 </h5>
-    <hr id='top-line'>
-    <p class="content"><div class = "intro">This project is a fork of Kate Rabinowitz's <a href="http://www.datalensdc.com/meetupSpeakers.html" class="link">original analysis</a> of tech meetups in DC. I came across this project after meeting her during a visit to Austin, and decided I wanted to repeat this analysis for Austin to hopefully encourage other cities to do it to. I encourage you to read more about her <a href = "http://www.datalensdc.com/meetupSpeakers.html" class="link">project.</a></div>
-    <hr id='top-line'>
-    <h4>Background </h4>
-    I always thought of Austin as a 'not bad' place for women in technology, based on all the active women-specific groups in the area, the way people acknowledge the importance of diversity at meetups and at work, and the number of simply amazing women I have met in person through meetups. But in researching this project I found  <a href="https://smartasset.com/mortgage/best-cities-for-women-in-tech-2016" class="link" target="_blank">this report</a> which has Austin well-below the national average on a number of diversity stats, including only 21% of tech jobs filled by women. This is well below the national average of 27%. <br><br>And while our meetup scene is hot and thriving -- among the <a hred = "https://blog.rjmetrics.com/2014/04/23/whos-meeting-up-a-ranking-of-top-startup-cities/">top 10 by members</a> in the US -- I've also discovered that the proportion of meetup speakers who are women, 16.3%, is even lower than that below-average proportion of tech jobs filled by women in Austin.
-    <br><br>
-    <h4>Methodology </h4>
-    For the analysis, I looked at the top 50 meetup groups in Austin and eliminated the ones without speaker events. These all had greater than 1500 members. I also omitted women-specific events which I will explain later. Amazingly, this still left me with 44 groups. I sorted the meetup group list by number of members and picked every third group as a sample. Then, I pulled the events for that group, returning 255 events. <br><br>
+      <div class="multiBig">
+      <iframe width="100%" height="540px" src="./iframes/meetupMultiBig.html" frameborder="0"></iframe>
+      </div>
 
-    I manually went through and notated whether or not these events were speaker events (which shrunk the list to 220), and tallied the male, female, and non-binary speakers for each. I based this on triangulating with names, pronouns, and lots and lots of googling. I realize there are ways to automate this, but I wanted to have the highest quality vetted data to put out there.
-    <br>
-    <h4>Findings</h4>
-    The results were somewhat indicative of a more diverse meetup speaker culture in Austin than in DC, but still showed a disappointing disparity. Only eleven women spoke at single-speaker events in Austin. Out of 74.
+      <div class="multiSmall">
+      <iframe width="100%" height="500px" src="./iframes/meetupMultiSmall.html" frameborder="0"></iframe>
+      </div>
 
-    Startup Founder had more women than men at single-speaker events, but no women spoke at their multi-speaker events.</p>
+      <p class="content">Of the 220 speaking slots, only 16.3% were women. As Kate explains, "This lack of representation can have far-reaching effects. Marginalized groups miss out on opportunities to be presented as leaders or experts in their fields. They are less likely to feel welcome to such groups, missing out on valuable learning and networking opportunities. The result can be a feedback loop that works against diversity in the field."
+      <br><br>
 
-    <div class="singleBig">
-    <iframe width="100%" height="530px" src="./iframes/meetupSingleBig.html" frameborder="0"></iframe>
-    </div>
+      These graphs do not include the data for non-binary people because they did not speak at any of these events. But they are also a part of this community and deserve to be heard.
+      <br><br>
 
-    <!-- <div class="singleSmall">
-    <iframe width="100%" height="550px" src="./iframes/meetupSingleSmall.html" frameborder="0"></iframe>
-    </div> -->
+      <h4>Takeaways</h4>
 
-    <p class="content">Multi-speaker events overall did feature more women, and technically at higher rates (17.1%, or 25 out of 146 speakers were women) but 10 of this 25 came from the wordpress group where the same woman leads a regular workshop. I didn't go through and deduplicate all speakers, but in theory that would reduce this number to less than 10%.
-    <br><br>
-    </p>
+      Although this data tells a strong story, we are not calling anyone sexist or intentionally exclusive of women. Kate goes on to say, "The speaker gap likely grows from ingrained networks and implicit bias. But as large, professional communities these meetups should consider it their responsibility to more accurately reflect, and champion, diversity in the industry."
+      <br><br>
 
-    <div class="multiBig">
-    <iframe width="100%" height="540px" src="./iframes/meetupMultiBig.html" frameborder="0"></iframe>
-    </div>
+      And actually, many women in Austin tech have made homes for themselves in organizations like <a class="link" target="_blank" href="https://www.meetup.com/Women-Who-Code-Austin/">Women Who Code</a>, <a class="link" target="_blank" href="https://www.meetup.com/PyLadies-ATX//">PyLadies</a>, <a class="link" target="_blank" href="https://www.meetup.com/ChickTech-Austin//">ChickTech Austin</a>, and others. These organizations are incredible at empowering women, and giving them the stage, but we want non-female specific groups to give women and non-binary people a stage too, and encourage them to work with these organizations to find and include women leaders.
 
-    <!-- <div class="multiSmall">
-    <iframe width="100%" height="500px" src="./iframes/meetupMultiSmall.html" frameborder="0"></iframe>
-    </div> -->
+      <br><br> At the very minimum, all meetups should include a <a class="link" target="_blank" href="http://wunder.schoenaberselten.com/2016/02/17/should-my-tech-conference-community-have-a-code-of-conduct-recommended-resources/">Code of Conduct</a>, as they are a very easy way to think about and show your meetup's commitment to diversity.
+      <br><br>
 
-    <p class="content">Of the 220 speaking slots, only 16.3% were women. As Kate explains, "This lack of representation can have far-reaching effects. Marginalized groups miss out on opportunities to be presented as leaders or experts in their fields. They are less likely to feel welcome to such groups, missing out on valuable learning and networking opportunities. The result can be a feedback loop that works against diversity in the field."
-    <br><br>
+      <h4>Be the Change</h4>
 
-    These graphs do not include the data for non-binary people because they did not speak at any of these events. But they are also a part of this community and deserve to be heard.
-    <br><br>
+      As I mentioned earlier, in an effort to bridge this speaker gap Kate created this site<a class="link" target=_"blank" href="http://wespeaktoo.org/">wespeaktoo.org</a>, and we worked together to create <a class="link" target=_"blank" href="http://wespeaktoo.org/">wespeaktoo.org/austin</a>. It is an open source list of area women and non-binary people interested in speaking at data and tech events. Please share and add yourself to the list. Women and non-binary people deserve a place on the stage.</p>
+      <br>
 
-    <h4>Takeaways</h4>
-
-    Although this data tells a strong story, we are not calling anyone sexist or intentionally exclusive of women. Kate goes on to say, "The speaker gap likely grows from ingrained networks and implicit bias. But as large, professional communities these meetups should consider it their responsibility to more accurately reflect, and champion, diversity in the industry."
-    <br><br>
-
-    And actually, many women in Austin tech have made homes for themselves in organizations like <a class="link" target="_blank" href="https://www.meetup.com/Women-Who-Code-Austin/">Women Who Code</a>, <a class="link" target="_blank" href="https://www.meetup.com/PyLadies-ATX//">PyLadies</a>, <a class="link" target="_blank" href="https://www.meetup.com/ChickTech-Austin//">ChickTech Austin</a>, and others. These organizations are incredible at empowering women, and giving them the stage, but we want non-female specific groups to give women and non-binary people a stage too, and encourage them to work with these organizations to find and include women leaders.
-
-    <br><br> At the very minimum, all meetups should include a <a class="link" target="_blank" href="http://wunder.schoenaberselten.com/2016/02/17/should-my-tech-conference-community-have-a-code-of-conduct-recommended-resources/">Code of Conduct</a>, as they are a very easy way to think about and show your meetup's commitment to diversity.
-    <br><br>
-
-    <h4>Be the Change</h4>
-
-    As I mentioned earlier, in an effort to bridge this speaker gap Kate created this site<a class="link" target=_"blank" href="http://wespeaktoo.org/">wespeaktoo.org</a>, and we worked together to create <a class="link" target=_"blank" href="http://wespeaktoo.org/">wespeaktoo.org/austin</a>. It is an open source list of area women and non-binary people interested in speaking at data and tech events. Please share and add yourself to the list. Women and non-binary people deserve a place on the stage.</p>
-    <br>
-
-    <hr id='end-line'>
-    <p class='content'><i><b>Technical notes:</b> Data was collected through the Meetup API. Austin modifications were made by me, Alex Ford, and Dashiel Lopez Mendez. Original code was written by Kate and her group. You can find my modified code for this<a class='link' target="_blank" href="https://github.com/amaliebarras/meetupSpeakerGender"> on my github page</a>, and trace back to Kate's original code as well.</p></i>
-    <br><br>
+      <hr id='end-line'>
+      <p class='content'><i><b>Technical notes:</b> Data was collected through the Meetup API. Austin modifications were made by me, Alex Ford, and Dashiel Lopez Mendez. Original code was written by Kate and her group. You can find my modified code for this<a class='link' target="_blank" href="https://github.com/amaliebarras/meetupSpeakerGender"> on my github page</a>, and trace back to Kate's original code as well.</p></i>
+      <br><br>
+  </div>
+  </div>
 </div>
 </div>
-
-<!-- </body>
-</html> -->

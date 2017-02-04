@@ -4,123 +4,98 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto|Russo+One');
 
-.headerdiv {
-		height: 275px;
-		background-image:
-			linear-gradient(
-		      rgba(255, 230, 255, 0.45),
-		      rgba(255, 230, 255, 0.45)
-		    ),
-		url('../images/wocintech.jpg');
-		background-size: cover;
-    background-repeat: no-repeat;
-}
 
-.contentblock {
-	padding: 0em 3em;
-}
+// Imports
+@import 'grid';
+@import 'variables';
 
-
-
-h1 {
-	position: relative;
-	font-family: 'Russo One';
-	margin-bottom: 0;
-	font-size: 58px;
-	color: #ff33cc;
-	padding-left: 3rem;
-	text-decoration: none;
-}
-
-h2 {
-
-	position: relative;
-	font-family: 'Russo One', cursive;
-	margin-top: 0;
-	font-size: 24px;
-	color: #000000;
-	padding-left: 3rem;
-}
-
-h1 a {
-	text-decoration: none;
-	color: #ff33cc;
-}
-
-a:hover {
-	color: #000000;
-	text-decoration: none;
-    cursor: pointer;
-}
-
-body {
-	margin: 1% 0% 0 0%;
-	font-family: 'Roboto';
-}
-
-body a {
-	color: #ff33cc;
-}
-
-.content {
-	font: 14px/1.5 'Roboto', Helvetica, Arial, sans-serif;
-}
-
-.content a {
-	text-decoration: underline;
-	color: #ff33cc;
-}
-
-.listwrapper {
-	display: block;
-}
-
-.citylink {
-	display: inline-block;
-	text-align:left;
-	font-size: 20px;
-	padding: 7px;
-}
-
-.listwrapper a {
-	text-align: center;
-	background-color: #f2f2f2;
-	color: #000;
-	font-family: 'Russo One', cursive;
-	text-decoration: none;
-	position: relative;
-	width: 45%;
-	padding: 3em 0em;
-	margin-right: 10px;
+.home {
+	.headerdiv {
+			height: 275px;
+			background-image:
+				linear-gradient(
+			      rgba(255, 230, 255, 0.45),
+			      rgba(255, 230, 255, 0.45)
+			    ),
+			url('../images/wocintech.jpg');
+			background-size: cover;
+	    background-repeat: no-repeat;
 	}
 
-.listwrapper a:hover {
-	background-color: #ff33cc;
-	color: #fff;
-	text-decoration: none;
-  cursor: pointer;
-	}
+	.citylistwrapper {
+			display: block;
+			clear: both;
+			a {
+				display: inline;
+				text-align: center;
+				clear: both;
+				font-size: 24px;
+				color: $shamrock;
+			}
+			.citylink {
+				height: 5em;
+				font-family: $headerfont;
+				background-color: $polar;
+					&:hover {
+						background-color: $electric-violet;
+						text-decoration: none;
+					  cursor: pointer;
+						color: $alabaster;
+					}
+				}
+			}
 
-.toDoList {
-	text-align: left;
-}
-
-.toDoList li a:hover{
-	color: #ff33cc;
-	text-decoration: none;
-  cursor: pointer;
+	.toDoList {
+		text-align: left;
+			li a:hover {
+				color: $electric-violet;
+				text-decoration: none;
+			  cursor: pointer;
+			}
+		}
 }
 
 .footer {
-	background-color: #f2f2f2;
+	background-color: $alabaster;
 	padding: 10px 0;
 	font-size: 12px;
 	text-align: center;
+}
+
+.austin {
+
+}
+
+.austinstory {
+	@media (min-width: 0px) and (max-width: 450px){
+		 .singleBig iframe, .multiBig iframe{
+					display:none;
+			}
+		}
+	@media (min-width: 450px) {
+			.singleSmall iframe, .multiSmall iframe{
+					display:none;
+			}
+		}
+}
+
+.dc {
+
+}
+
+.resources {
+
+}
+
+.addyourcity {
+
+}
+
+.whyyoushould {
+
 }
 
 
 #AustinSpeakerList #DCspeakerList {
 	font: 14px/1.5 'Roboto', Helvetica, Arial, sans-serif;
 }
-
-/*page styles*/

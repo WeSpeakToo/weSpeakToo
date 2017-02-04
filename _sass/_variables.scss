@@ -13,10 +13,40 @@ $white: #FFFFFF;
 
 // Fonts
 $headerfont: 'Russo One';
-$primary-font: 'Roboto'
+$primary-font: 'Roboto';
 
-// Width of the content area
-$content-width:    800px;
+body {
+  font-family: $primary-font;
+  color: $gray;
+}
 
-$on-palm:          600px;
-$on-laptop:        800px;
+h1 {
+	font-family: $headerfont;
+	margin-bottom: 0;
+	font-size: 58px;
+	color: $electric-violet;
+	text-decoration: none;
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+h2 {
+	font-family: $headerfont;
+	margin-top: 0;
+	font-size: 24px;
+	color: $gray;
+}
+
+
+a {
+	text-decoration: underline;
+	color: $electric-violet;
+  &:hover {
+  	color: $shamrock;
+      cursor: pointer;
+  }
+}
