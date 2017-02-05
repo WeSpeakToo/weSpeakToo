@@ -1,5 +1,5 @@
 name: We Speak Too
-description: A website listing DC area women + non-binary people interested in speaking at local data and tech events
+description: A website listing cities' area women + non-binary people interested in speaking at local data and tech events
 markdown: kramdown
 
 sass:
