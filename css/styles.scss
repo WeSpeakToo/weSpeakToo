@@ -81,6 +81,21 @@
 					display:none;
 			}
 		}
+	.iframe-sm {
+		width: 100%;
+		height: 500px;
+		frameborder:0;
+	}
+	.iframe-md {
+		width: 100%;
+		height: 525px;
+		frameborder:0;
+	}
+	.iframe-lg {
+		width: 100%;
+		height: 550px;
+		frameborder:0;
+	}
 }
 
 .dc {
