@@ -1,7 +1,7 @@
 $(document).ready(function() {
     
     $('#DCspeakerList').DataTable( {
-        "ajax": './DC/speakers.json',
+        "ajax": '.././DC/speakers.json',
         "order": [[0, "asc"]],
         "lengthMenu": [10, 25, 50, 75, 100],
         "columnDefs": [
@@ -28,7 +28,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     
     $('#AustinSpeakerList').DataTable( {
-        "ajax": './austin/speakers.json',
+        "ajax": '.././austin/speakers.json',
         "order": [[0, "asc"]],
         "lengthMenu": [10, 25, 50, 75, 100],
         "columnDefs": [
