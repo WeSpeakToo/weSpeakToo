@@ -8,6 +8,7 @@
 // Imports
 @import 'grid';
 @import 'variables';
+@import 'angled-edges';
 
 .home {
 	.headerdiv {
@@ -63,7 +64,10 @@
 }
 
 .austin {
-
+	table {
+		cellspacing: 0;
+		width: 100%;
+	}
 }
 
 .austinstory {
@@ -77,10 +81,28 @@
 					display:none;
 			}
 		}
+	.iframe-sm {
+		width: 100%;
+		height: 500px;
+		frameborder:0;
+	}
+	.iframe-md {
+		width: 100%;
+		height: 525px;
+		frameborder:0;
+	}
+	.iframe-lg {
+		width: 100%;
+		height: 550px;
+		frameborder:0;
+	}
 }
 
 .dc {
-
+table {
+		cellspacing: 0;
+		width: 100%;
+	}
 }
 
 .resources {
