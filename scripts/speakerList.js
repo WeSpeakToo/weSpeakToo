@@ -57,8 +57,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 
-    $('#stLouisSpeakerList').DataTable( {
-        "ajax": './stLouis/speakers.json',
+    $('#coloradoSpeakerList').DataTable( {
+        "ajax": './colorado/speakers.json',
         "order": [[0, "asc"]],
         "lengthMenu": [10, 25, 50, 75, 100],
         "columnDefs": [
