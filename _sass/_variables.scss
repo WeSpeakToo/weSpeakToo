@@ -24,17 +24,40 @@ h1 {
 
 h2 {
 	font-family: $headerfont;
-	margin-top: 0;
 	font-size: 24px;
-	color: $gray;
+	color: $polar;
+  background-color: $shamrock;
+  margin-top: 0;
+  padding: 10px;
+}
+
+h4 {
+  color: $electric-violet;
 }
 
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: $electric-violet;
   &:hover {
   	color: $shamrock;
       cursor: pointer;
   }
+}
+
+.larger {
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.small {
+  font-size: 9px;
+}
+
+.bold {
+  font-weight: 900;
 }
