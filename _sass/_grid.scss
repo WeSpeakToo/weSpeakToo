@@ -26,11 +26,12 @@ body {
 .row {
   margin-top: 2em;
   overflow: hidden;
+  margin: 0;
 }
 
 /* larger grid */
 
-@media (min-width: 450px) {
+@media (min-width: 550px) {
 
   .col-1 {
     @include grid (1);

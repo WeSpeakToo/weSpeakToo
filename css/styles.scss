@@ -10,41 +10,70 @@
 @import 'variables';
 @import 'angled-edges';
 
-.home {
-	.headerdiv {
-			height: 275px;
-			background-image:
-				linear-gradient(
-			      rgba(255, 230, 255, 0.45),
-			      rgba(255, 230, 255, 0.45)
-			    ),
-			url('../images/wocintech.jpg');
-			background-size: cover;
-	    background-repeat: no-repeat;
-	}
 
-	.citylistwrapper {
-			display: block;
-			clear: both;
-			a {
-				display: inline;
-				text-align: center;
-				clear: both;
-				font-size: 24px;
-				color: $shamrock;
+// header styles
+
+.headerdiv {
+	.row {
+		margin: 0;
+		padding: 10px 0;
+	}
+}
+
+.site-header {
+
+		.site-title {
+		    float: left;
+		    text-decoration: none;
 			}
-			.citylink {
-				height: 5em;
-				font-family: $headerfont;
-				background-color: $polar;
+
+			.site-title-logo {
+				width: 90px;
+				height: 90px;
+			}
+
+		.site-nav {
+
+			.trigger {
+				a {
+					text-decoration: none;
+					float: right;
+					font-size: 1.15em;
+					padding: 0 15px;
+					color: $electric-violet;
 					&:hover {
-						background-color: $electric-violet;
-						text-decoration: none;
-					  cursor: pointer;
-						color: $alabaster;
+						color: $shamrock;
 					}
 				}
+				#findyourcity {
+					background-color: $alabaster;
+					border-radius: 3px;
+					color: $shamrock;
+					&:hover {
+						background-color: $polar;
+					}
+				}
+
 			}
+
+	}
+
+}
+
+
+
+// page styles
+
+.home {
+	.wocimg {
+	margin-bottom: 1em;
+	}
+
+	.howtohelp {
+		a {
+		font-size: 1.5em;
+		}
+	}
 
 	.toDoList {
 		text-align: left;
@@ -56,11 +85,21 @@
 		}
 }
 
-.footer {
+footer {
+	margin-top: 1em;
 	background-color: $alabaster;
 	padding: 10px 0;
-	font-size: 12px;
 	text-align: center;
+	h3 {
+		color: $shamrock;
+	}
+}
+
+//city page styles
+
+.banner {
+	width: 100%;
+	margin-bottom: 0;
 }
 
 .austin {
