@@ -57,8 +57,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 
-    $('#coloradoSpeakerList').DataTable( {
-        "ajax": './colorado/speakers.json',
+    $('#DenverSpeakerList').DataTable( {
+        "ajax": '.././denver/speakers.json',
         "order": [[0, "asc"]],
         "lengthMenu": [10, 25, 50, 75, 100],
         "columnDefs": [
