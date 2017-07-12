@@ -68,32 +68,6 @@
 	.wocimg {
 	margin-bottom: 1em;
 	}
-	.citylistwrapper {
-			display: block;
-			clear: both;
-			a {
-				display: inline;
-				text-align: center;
-				clear: both;
-				font-size: 24px;
-				color: $shamrock;
-			}
-			.citylink {
-				height: 4em;
-				padding: 1em;
-				font-family: $headerfont;
-				background-color: $alabaster;
-				text-decoration: none;
-			  cursor: pointer;
-				color: $electric-violet;
-				border: solid 3px #fff;
-				&:hover {
-					background-color: $electric-violet;
-					text-decoration: none;
-					color: $alabaster;
-				}
-			}
-		}
 
 	.howtohelp {
 		a {
@@ -116,6 +90,16 @@ footer {
 	background-color: $alabaster;
 	padding: 10px 0;
 	text-align: center;
+	h3 {
+		color: $shamrock;
+	}
+}
+
+//city page styles
+
+.banner {
+	width: 100%;
+	margin-bottom: 0;
 }
 
 .austin {
