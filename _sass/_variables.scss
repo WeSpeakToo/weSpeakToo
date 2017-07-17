@@ -38,6 +38,7 @@ h4 {
 
 a {
 	text-decoration: none;
+  font-size: 18px;
 	color: $electric-violet;
   &:hover {
   	color: $shamrock;
@@ -45,16 +46,20 @@ a {
   }
 }
 
-    .buttonlink {
-    background-color: $alabaster;
+p {
+  font-size: 18px;
+  font-weight: normal;
+}
 
+.buttonlink {
+    background-color: $alabaster;
     border-radius: 3px;
     color: $shamrock;
     margin-bottom: 1em;
       &:hover {
         background-color: $polar;
       }
-  }
+}
 
   .sidebysidewrapper {
 			display: block;
@@ -112,10 +117,7 @@ a {
     height: 40%;
     margin: 1em 0em;
   }
-  p {
-    font-size: 16px;
-    font-weight: normal;
-  }
+
   &:hover {
     background-color: $alabaster;
   }
