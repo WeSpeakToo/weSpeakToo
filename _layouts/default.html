@@ -1,21 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>{{ page.title }}</title>
-    <link href='/css/styles.css' rel='stylesheet' type='text/css'>
+
+    <!-- meta props -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Women and non-binary people interested in speaking at data and tech events. Add your name!">
+    <meta property="og:image" content="www.wespeaktoo.org/images/wocintech.jpg"/>
+    <meta property="og:description" content="Women and non-binary people interested in speaking at data and tech events. Add your name!"/>
+    <meta property="og:url" content="http://www.wespeaktoo.org"/>
+    <meta property="og:title" content="We Speak Too"/>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://www.wespeaktoo.org" />
+
+    <!-- Favicon -->
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- Styling includes -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.8/css/jquery.dataTables.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto%7CRusso+One" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href='/css/styles.css' rel='stylesheet' type='text/css'>
+
+    <!-- This is for story pages -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
   </head>
-
   <body>
-    <div class="container">
-    {{ content }}
+    <div class = "headerdiv container">
+    	<div class = "row">
+    			{% include header.html %}
+    	</div>
     </div>
-  
-  <footer>
-  <p class="footer"> Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://twitter.com/DataLensDC" target="_blank">Kate Rabinowitz.</a> <a href="mailto:datalensdc@gmail.com" target="_blank">Get in touch</a> to share questions and feedback. <br>
-  Photo courtesy <a href="http://www.wocintechchat.com/" target="_blank">#WOCInTechChat</a></p>
-  </footer>
-  </body>
 
+    <div class = "container">
+      {{ content }}
+    </div>
+
+    <div class = "footerdiv">
+    	<div class = "row">
+    			{% include footer.html %}
+    	</div>
+    </div>
+  </body>
 </html>
