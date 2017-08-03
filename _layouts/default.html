@@ -32,14 +32,20 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class = "headerdiv container">
+    	<div class = "row">
+    			{% include header.html %}
+    	</div>
+    </div>
+
+    <div class = "container">
       {{ content }}
     </div>
 
-    <footer>
-      <p class="footer"> Made with <i class="fa fa-heart" aria-hidden="true"></i> and lives on <a href="https://github.com/WeSpeakToo" target="_blank">Github</a>. Contact <a href="https://twitter.com/DataLensDC" target="_blank">Kate</a> <a href="mailto:datalensdc@gmail.com" target="_blank"> with questions or feedback.</a> 
-      <br>
-      Photo courtesy <a href="http://www.wocintechchat.com/" target="_blank">#WOCInTechChat</a></p>
-    </footer>
+    <div class = "footerdiv">
+    	<div class = "row">
+    			{% include footer.html %}
+    	</div>
+    </div>
   </body>
 </html>

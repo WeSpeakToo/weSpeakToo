@@ -2,5 +2,8 @@ name: We Speak Too
 description: A website listing cities' area women + non-binary people interested in speaking at local data and tech events
 markdown: kramdown
 
+
+github_username:  wespeaktoo
+
 sass:
     sass_dir: _sass
