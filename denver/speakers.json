@@ -2,8 +2,8 @@
 	"data": [
         ["Yourname Here", "@YourTwitterHandle", "Interests, separated, by, commas","Tools, separated, by, commas", "http://www.yourURL.com"],
         ["Amalie Barras", "@amaliebarras", "Civic Tech, Web Analytics, UI Design & Coding, Diversity and Inclusion in Tech","Google Analytics, Tableau, Sketch, HTML/CSS/Sass, Jekyll", "http://www.amaliebarras.com"],
-		    ["Katie Johnson", "@katlynbjohnson", "User Experience Research, Human-Centered Design, Innovation Strategy, Diversity in Tech","", "https://www.linkedin.com/in/katlynbjohnson/"],
-		    ["Valerie Kraucunas", "null", "Junior Engineers, Mentoring, Reactjs, Enzyme Testing, Web Development, JavaScript, Changing Careers into Tech, Front End Development, Women/Diversity in Tech", "https://www.linkedin.com/in/vkraucunas/"],
+	["Katie Johnson", "@katlynbjohnson", "User Experience Research, Human-Centered Design, Innovation Strategy, Diversity in Tech","", "https://www.linkedin.com/in/katlynbjohnson/"],
+	["Valerie Kraucunas", "", "Junior Engineers, Mentoring, Changing Careers into Tech, Front End Development, Women/Diversity in Tech, Enzyme Testing, Web Development", "Reactjs, JavaScript", "https://www.linkedin.com/in/vkraucunas/"],
         ["Kathy Keating", "@kathkeating", "Building effective tech teams, Engineering leadership, Scaling fast, Building diverse and inclusive teams, Lean, Product ideation, Tech culture, Being a startup CTO, Life of a CTO in an Accelerator, Mentorship and Giving First, Tech innovation, Solving complex problems, Data, Cloud strategies, Security","Go, Angular, SQL, AWS", "https://www.linkedin.com/in/kathykeating/"],
         ["Madison Kerndt", "@mkerndt", "Startups, Lean Business Development, Encryption, Cryptography, Security, Front-end Development, JavaScript, Learning, Teaching, Evangelism, Community, Education.","JavaScript, Ember, TypeScript, React", "https://www.linkedin.com/in/mkerndt/"],
         ["Heather J. MacKenzie", "@heather_j_mack", "Diversity (why it's important and how to build diverse cultures), Funding for women, How to build lasting client and team relationships","", "https://www.linkedin.com/in/heather-j-mackenzie-16089a6/"],
