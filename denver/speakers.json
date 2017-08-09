@@ -1,6 +1,7 @@
 {
 	"data": [
         ["Yourname Here", "@YourTwitterHandle", "Interests, separated, by, commas","Tools, separated, by, commas", "http://www.yourURL.com"],
+	["Cassandra Torske", "@theGRUMPYgoose", "Web Development, teaching, music, dogs, Learning, Leaving people happier than when I found them","JavaScript, AngularJS, Node.js", "https://cassandratorske.com"],
         ["Amalie Barras", "@amaliebarras", "Civic Tech, Web Analytics, UI Design & Coding, Diversity and Inclusion in Tech","Google Analytics, Tableau, Sketch, HTML/CSS/Sass, Jekyll", "http://www.amaliebarras.com"],
 	["Katie Johnson", "@katlynbjohnson", "User Experience Research, Human-Centered Design, Innovation Strategy, Diversity in Tech","", "https://www.linkedin.com/in/katlynbjohnson/"],
 	["Valerie Kraucunas", "", "Junior Engineers, Mentoring, Changing Careers into Tech, Front End Development, Women/Diversity in Tech, Enzyme Testing, Web Development", "Reactjs, JavaScript", "https://www.linkedin.com/in/vkraucunas/"],
