@@ -1,7 +1,7 @@
 {
 	"data": [
         ["Yourname Here", "@YourTwitterHandle", "Interests, separated, by, commas","Tools, separated, by, commas", "http://www.yourURLgoeshere.com"],
-        ["Alicia C. Raciti", "@acr523", "UX Design, Service Design, Volunteering, Self-Care",,"https://alicia-raciti.squarespace.com/appearances"],
+        ["Alicia C. Raciti", "@acr523", "UX Design, Service Design, Volunteering, Self-Care","","https://alicia-raciti.squarespace.com/appearances"],
 	["Amalie Barras", "@amaliebarras", "Civic Tech, Web Analytics, UI Design & Coding, Diversity and Inclusion in Tech","Google Analytics, Tableau, Sketch, HTML/CSS/Sass, Jekyll", "http://www.amaliebarras.com"],
 	["Katie Johnson", "@katlynbjohnson", "User Experience Research, Human-Centered Design, Innovation Strategy, Diversity in Tech","", "https://www.linkedin.com/in/katlynbjohnson/"],
 	["Valerie Kraucunas", "", "Junior Engineers, Mentoring, Changing Careers into Tech, Front End Development, Women/Diversity in Tech, Enzyme Testing, Web Development", "Reactjs, JavaScript", "https://www.linkedin.com/in/vkraucunas/"],
