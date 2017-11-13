@@ -15,6 +15,8 @@
         ["Teddi Maull", "@teddimaull", "Career change, Teaching, Growth Mindset, How to navigate your first year as a web developer, Learning to Learn, Problem Solving Methods","Javascript, Angular 1.6, React, Node/Express", "https://www.linkedin.com/in/teddimaull/"],
         ["Kim Schlesinger", "@colorado_kim", "Fullstack JavaScript, Teaching and Learning, Diversity & Inclusion","HTML/CSS, JavaScript, Node.js + Express", "https://kimschlesinger.com/"],
         ["Amy Chong", "", "UX Research","", "https://www.linkedin.com/in/chongamy"],
-	["Emily Platzer", "@emilyplatzer", "Hardware, Test Driven Development, git, Lean Agile, Full Stack Web Development, Internet of Things", "JavaScript, Node.js, Express, PostgreSQL, Mocha, React, Redux, Raspberry Pi, Arduino, Ruby, Rails, RSpec, Capybara", "http://www.emilyplatzer.com/"]
+	["Emily Platzer", "@emilyplatzer", "Hardware, Test Driven Development, git, Lean Agile, Full Stack Web Development, Internet of Things", "JavaScript, Node.js, Express, PostgreSQL, Mocha, React, Redux, Raspberry Pi, Arduino, Ruby, Rails, RSpec, Capybara", ""],
+	["Cara Jo Miller", "@cojorado", "UI Design, Front-end Development, Self-care, Teaching, Diversity & Inclusion in Tech, Taking Risks, Photography & Art","Sketch, HTML/CSS/Sass/Pug, GitHub", "http://www.yourURLgoeshere.com"],
+
 	]
 }
