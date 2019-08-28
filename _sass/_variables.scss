@@ -10,8 +10,8 @@ body {
 
 h1 {
 	font-family: $headerfont;
-	margin-bottom: 0;
-	font-size: 58px;
+	margin-top: 0 0 1em 0;
+	font-size: 48px;
 	color: $electric-violet;
 	text-decoration: none;
   a {
@@ -24,17 +24,100 @@ h1 {
 
 h2 {
 	font-family: $headerfont;
-	margin-top: 0;
 	font-size: 24px;
-	color: $gray;
+	color: $polar;
+  background-color: $shamrock;
+  margin-top: 0;
+  padding: 10px;
+}
+
+h4 {
+  color: $electric-violet;
 }
 
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: $electric-violet;
   &:hover {
   	color: $shamrock;
       cursor: pointer;
+  }
+}
+
+p {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.buttonlink {
+    background-color: $alabaster;
+    border-radius: 3px;
+    color: $shamrock;
+    margin-bottom: 1em;
+      &:hover {
+        background-color: $polar;
+      }
+}
+
+  .sidebysidewrapper {
+			display: block;
+			clear: both;
+			a {
+				display: inline;
+				text-align: center;
+				clear: both;
+				font-size: 24px;
+				color: $shamrock;
+			}
+			.sidebysidelink {
+				height: 4em;
+				padding: 1em;
+				font-family: $headerfont;
+				background-color: $alabaster;
+				text-decoration: none;
+			  cursor: pointer;
+				color: $electric-violet;
+				border: solid 3px #fff;
+				&:hover {
+					background-color: $electric-violet;
+					text-decoration: none;
+					color: $alabaster;
+				}
+			}
+		}
+
+.larger {
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.small {
+  font-size: 9px;
+}
+
+.bold {
+  font-weight: 900;
+  font-family: $headerfont;
+  font-size: 40px;
+}
+
+.addselfdiv{
+  height: 350px;
+  text-align: center;
+  padding: 0 5%;
+  border: solid 3px #fff;
+  background-color: $polar;
+  .halfimg {
+    height: 40%;
+    margin: 1em 0em;
+  }
+
+  &:hover {
+    background-color: $alabaster;
   }
 }

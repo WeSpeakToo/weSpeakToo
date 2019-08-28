@@ -13,7 +13,7 @@
 		["Sana Javed", "@sanacodes", "Software development, TDD, Databases, APIs, Data Analysis", "Python, Django, Testing/TDD", "https://github.com/sanajaved7"],
 		["Shannon Turner", "@svthmc", "Web development", "Python, Django, HTML/CSS, JavaScript, bash", "http://shannonvturner.com/"],
 		["Valerie Coffman", "@valerierose", "Data Science, Computational Science, Startups, Leadership", "Python, C++, Javascript", "http://valeriecoffman.com/"],
-		["Amanda Hewitt", "@apiamanda", "JavaScript and Front End Development", "JavaScript, Node.js, HTML/CSS", "https://github.com/mandy6720"],
+		["Amanda Bozzi", "@apiamanda", "JavaScript (ES6+), React, Advanced CSS/Sass, Accessibility, and other Front End Development stuff", "JavaScript, React, GraphQL, CSS & Sass, a11y", "https://github.com/mandy6720"],
 		["Rachel Shorey", "@rachel_shorey", "Software, data, journalism tech", "Python/Django, SQL", "http://rachelshorey.com/"],
 		["Marie Whittaker", "@MarieCWhittaker", "Data Viz, Tableau, Economic Data, DC Government, Python for wrangling, hacky front end stuff, graphic design", "Python, Tableau", "https://github.com/mseew"],
 		["Catherine \"Cat\" Robinson","@HeyCatRobinson","all things design: UX, user testing, Visual design","", "https://www.linkedin.com/in/cat-robinson-6a202837"],
@@ -34,7 +34,7 @@
 		["Hannah Fischer", "@hannahfinally", "GIS, Data Discovery and Research, Using GIS for Public Policy, Data-Driven Decision Making", "ArcGIS, OpenStreetMap", "https://www.linkedin.com/in/hannah-fischer-532400a"],
 		["Dalila Benachenhou","@femvestor","Data Science, Computer Science, Statistics, Financial and Customs Fraud Detection, Finance, Startups, Public Speaking", "R, SAS, Mathematica, Matlab, Java, Python, Mysql,Neo4j", "https://www.linkedin.com/in/dalila-benachenhou-1a140213"],
 		["Rebecca Reesman","","Science & technology policy, science communication, diversifying STEM","", "https://www.linkedin.com/in/rebecca-reesman-5337b991"],
-		["Lindsey Dragun", "", "Accessibility, Git/Github, Career Transition, Full Stack Web Dev, Sass, Diversity in Tech, Conflict Resolution, UX Concepts for Developers", "SCSS/CSS/HTML, Javascript, Python/Django, Ruby/Rails, Git", "http://lindseydragun.com/"],
+		["Lindsey Dragun", "", "Accessibility, Diversity and Inclusion, UX Concepts for Developers, Networking for Introverts", "Sass, CSS, HTML, Javascript, Python, Django, Git", "http://dragun.tech/"],
 		["Julia Allyce","@julia_allyce", "Front End, Back End, Full Stack, Streaming Data, Data Visualization, Big Data", "Javascript, Golang, Knockout.js, React, CanJS, D3, WebGL, ES6, HTML/CSS", "http://www.juliaallyce.com/"],
 		["Catherine Madden","@catmule","Data Visualization, Data Storytelling, Visual Thinking, Visual Communication, UX Design, Sketching","", "http://catherinemaddenrelay.com/"],
 		["Megan Vorland","@ms_megan__smith","Project Management, Business for startups, BMC, Operations, Process implementation, selling to the government","", "https://www.linkedin.com/in/meganvorland"],
@@ -83,9 +83,18 @@
 		["Lizzie Ellis", "@lizmeister321", "Political Data, Direct Marketing, Data Visualization, Building your network, learning to code, Civic Hacking", "Python, SQL, Tableau, HTML/CSS, Django, Scala", "https://github.com/lizmeister321"],
 		["Aileen Craig, EIT","","civil and environmental engineering, green infrastructure, stream restoration, international development","GIS, AutoCAD, Microstation, HEC-RAS, Microsoft Access, Microsoft Project","https://www.linkedin.com/in/aileencraig/"],
 		["Sushila Nair","@sushila_nair","Security Monitoring and Threat Detection, Building secure networks, Securing data, Mobile Security (not development), Encryption, Privacy","","https://www.linkedin.com/in/nairsushila/"],
+		["Allison McMillan","@allie_p","remote work, leadership development, mentorship, memory allocation, developer habits, parent developers, career changing", "Ruby, Rails, Git/GitHub, HTML, CSS, Javascript", "http://daydreamsinruby.com/speaking/"],
 		["Maggie Gaudaen", "@moonstompmaggie", "physical/digital design, web design, graphic design, set design, content creation, social media strategy, and small business ownership", "", "http://maggie.is/"],
 		["JZ","","Product management, User experience design, Design thinking, Geo-Location, maps, Big data, machine learning, Coupons and retail, Customer purchase data","","https://www.linkedin.com/in/initialsjz/"],
-		["Tracy King","@ng_tracyy","Front-End Development, HTML, CSS, JS, AngularJS, jQuery","","tracyking.me"]
-
+		["Tracy King","@ng_tracyy","Front-End Development, HTML, CSS, SCSS, JS, AngularJS, Angular, VueJS, jQuery, Entrprenuership in tech, tech community organzing, building a career as a software engineer","","tracyking.me"]
+		["Marianne Bellotti", "@bellmar", "Data Infrastructure, Legacy systems, IT Modernization, Civic technology, Incident response, Engineering management", "Python, Clojure, Node.js, SQL, NoSQL","https://github.com/mbellotti"],
+		["Brittany Walker", "@musicalwebdev", "Front End Development, UI Design, Teaching, Animations, Illustrations", "JavaScript, React, Sass, Vue, SVG, HTML","http://www.brittanywalker.io/"],
+		["Valerie Woolard Srinivasan", "@valeriecodes", "language and linguistics, learning to code, web security, podcasts, technology for social good, diversity and inclusion", "Ruby/Rails, React, Javascript, SQL, Python", "http://valerie.codes"],
+		["Ali Spittel", "@aspittel", "Web Development, Algorithms, where to start, data visualization, data driven applications, learning how to code", "Python, Django, React, Rails, Vue.js, JavaScript", "https://aspittel.github.io"],
+		["Julka Grodel", "@jgrodel", "Front-end development, back-end development", "JavaScript, SQL, Git, PHP", "https://github.com/julka"],
+		["Ijeoma Ezeonyebuchi", "", "Quality Assurance, Mobile App Testing, Diversity in Tech, Android", "C, Java, Android, Appium", "https://www.linkedin.com/in/ijeomaezeonyebuchi"],
+		["Laurie Barth", "@laurieontech", "Software Engineering, Web Development, Hardware, DevOps, Engineering Culture, Project Challenges", "Javascript, Python, Java, Kubernetes, Knime", "https://laurieontech.com/"],
+		["Kavita Amin", "@kavita387", "UX Design, Learning to Code, Bootcamps, Career Changes", "Python, Django, Ruby/Rails", "https://www.linkedin.com/in/kavitaamin/"],
+		["Monica Puerto", "@monipip3", "Data Science, Statistics, Web Scraping, Machine Learning, Data Visualization, Teaching, Geo Location", "Python, GIS, R, SQL, Scikit learn, Django, Bootstrap, BeautifulSoup","https://github.com/monipip3"]
 	]
 	}
